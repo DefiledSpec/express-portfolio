@@ -1,6 +1,6 @@
 # Web Development Portfolio
 
-[Portfolio](https://defiledspec.github.io)
+[Portfolio](https://defiledspec.herokuapp.com/)
 
 ---
 
