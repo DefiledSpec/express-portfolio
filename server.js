@@ -1,7 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const logger = require('morgan')
-const path = require('path')
 const hbs = require('express-handlebars')
 const htmlRoutes = require('./routes/htmlRoutes')
 const apiRoutes = require('./routes/apiRoutes')
@@ -15,13 +14,11 @@ app.set('view engine', 'hbs')
 app.set('x-powered-by', false)
 
 app.use(express.static('./public'))
-app.use(logger('dev'))
+app.use(logger('short'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use('/', htmlRoutes)
 app.use('/api', apiRoutes)
 
-
 app.listen(PORT, () => console.dir(`App Listening at http://localhost:${PORT}`, PORT, { colors: true }))
-// console.dir(app, {colors: true})
