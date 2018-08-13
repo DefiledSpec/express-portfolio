@@ -1,0 +1,25 @@
+<div class="myContainer container mt-5">
+	<div class="row">
+		<div class="col-sm-8 col-md-12 ml-auto mr-auto mb-4 bg-light">
+			<div class="row">
+				<div class="col-sm-12 mb-2">
+					<h2 class="mt-4">Portfolio</h2>
+					<hr style="height: 1px; background: rgba(0,0,0,0.1);">
+				</div>
+			</div>
+			<div class="row">
+				{{#each items }}
+					<div class="col-sm-12 col-md-4">
+						<figure>
+							<a href="{{#if hasSite}}{{ link }}{{ else }}{{ github }}{{/if }}">
+								<img src="{{ img }}" alt="" class="img img-thumbnail">
+								<figcaption>{{ name }}</figcaption>
+							</a>
+						</figure>
+					</div>
+				{{/each }}
+			</div>
+		<div>		
+	</div> <!-- main row -->
+</div><!-- end of myContainer -->	
+<br>

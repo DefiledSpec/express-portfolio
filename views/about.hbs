@@ -1,0 +1,43 @@
+<div class="myContainer container mt-5 mb-8">
+	<div class="row">
+		<div class="col-sm-12 col-md-8 ml-auto mr-auto mb-4 bg-light">
+
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="mt-4">About Me</h2><!--Heading-->
+					<hr style="height: 1px; background: rgba(0,0,0,0.1);">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12" >
+					<div class="">
+						<img src="/assets/img/me.jpg" id="myImg" class="img img-thumbnail mr-4 mb-2">
+					</div>
+					{{#each bio }}<p class="text-md" >{{{ this }}}</p>{{/each }}	
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 mt-1" >
+					<!-- <p class="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione 
+						possimus assumenda velit accusantium! Dignissimos quas doloremque dolores </p>
+					<p class="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione 
+						possimus assumenda velit accusantium! Dignissimos quas doloremque dolores assumenda adipisci.
+							Lorem ipsum dolor sit amet consectetur </p> -->
+				</div>
+			</div>
+
+		</div>
+		<div class="col-sm-6 col-md-3 offset-md-3 mr-auto ml-auto">
+			<div class="card">
+				<div class="card-header">My Projects</div>
+				<ul class="list-group list-group-flush text-center">
+				{{#each items }}
+					<li class="list-group-item">
+						<a href="{{#if hasSite}}{{ link }}{{ else }}{{ github }}{{/if }}">{{ name }}</a>
+					</li>	
+				{{/each }}
+				</ul>
+			</div>
+		</div>
+	</div><!--End of main row-->
+</div><!-- end of myContainer -->
