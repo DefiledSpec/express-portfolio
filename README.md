@@ -18,9 +18,10 @@
 * Word Guess CLI - Hangman game using constructors in node.js and inquirer.js
 * Bamazon - Amazon like store front on the command line written in node.js and using mySQL for data storage.
 * Friend Finder - Node.js server with front-end client for finding a friend with similar intrests.
+* Eat Da Burger - Node.js ORM using handlebars
 
 ## Current Projects
 
 ---
 
-* Eat Da Burger - Node.js ORM using handlebars
+* Project 2
