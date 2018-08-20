@@ -73,7 +73,7 @@ module.exports = [
 		name: 'Eat Da Burger',
 		github: 'https://github.com/DefiledSpec/eat-da-burger',
 		link: 'https://ds-eat-da-burger.herokuapp.com/',
-		img: '/assets/img/train.png',
+		img: '/assets/img/eat-da-burger.png',
 		hasSite: true,
 	},
 ]
