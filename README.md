@@ -2,11 +2,7 @@
 
 [Portfolio](https://defiledspec.herokuapp.com/)
 
----
-
 ## Projects Completed
-
----
 
 * [Hangman](http://defiledspec.github.io/Word-Game-Hangman) - Word Game
 
@@ -33,5 +29,3 @@
 * [Get Me My Coffee](https://getmemycoffee.herokuapp.com/) - Full Stack Web Application for companies to place coffee orders.
 
 ## Current Projects
-
----
