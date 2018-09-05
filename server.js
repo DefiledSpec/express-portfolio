@@ -21,4 +21,4 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use('/', htmlRoutes)
 app.use('/api', apiRoutes)
 
-app.listen(PORT, () => console.dir(`App Listening at http://localhost:${PORT}`, PORT, { colors: true }))
+app.listen(PORT, () => console.log(`App Listening at http://localhost:${PORT}`))

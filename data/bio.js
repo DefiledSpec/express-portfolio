@@ -1,6 +1,3 @@
 module.exports = [
-	`Full Stack Web Developmer who knows HTML, CSS, JavaScript, Node.js, &amp; jQuery.
-	I love technology and the rapid pace that it has moved at as well as solving problems. 
-	I’m mechanically inclined and a quick learner. I’m currently seeking full-time employment in Web 
-	Development to broaden my skills and help make meaningful web applications.`,
+	`Full Stack Web Developer proficient in HTML, CSS, JavaScript, Node.js, MySQL, Express and jQuery with a passion for technology and creating meaningful web applications while considering impacts to stakeholders. Highly creative and exceptional problem solver/troubleshooter by nature. Take the initiative to research and learn new languages, frameworks and libraries on my own. Also bring to the table unique and diverse ways to reach a well-thought-out and viable solution to diverse problems and the task at hand. Finally, I am extremely detailed-oriented, excellent at multitasking, a strong analytical and logical thinker, and am highly motivated by the challenge.`,
 ]

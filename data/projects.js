@@ -10,7 +10,7 @@ module.exports = [
 		name: 'Crystal Collector',
 		github: 'https://github.com/DefiledSpec/Crystal-Collector',
 		link: 'https://defiledspec.github.io/Crystal-Collector',
-		img: '/assets/img/crystal-collector.png',
+		img: '/assets/img/crystal-collector-2.png',
 		hasSite: true,
 	},
 	{
@@ -36,7 +36,7 @@ module.exports = [
 	},
 	{
 		name: 'MEH Youtube Player',
-		github: '',
+		github: 'https://github.com/gustbrad/mehyoutubeplayer',
 		link: 'https://gustbrad.github.io/mehyoutubeplayer',
 		img: '/assets/img/mehyt.png',
 		hasSite: true,
@@ -76,4 +76,11 @@ module.exports = [
 		img: '/assets/img/eat-da-burger.png',
 		hasSite: true,
 	},
+	{
+		name: 'Get Me My Coffee',
+		github: 'https://github.com/EGartland/Group-Project-2',
+		link: 'https://getmemycoffee.herokuapp.com/',
+		img: '/assets/img/get-me-my-coffee.png',
+		hasSite: true,
+	}
 ]
