@@ -1,7 +1,6 @@
 const express = require('express')
 const projects = require('../data/projects')
 const bio = require('../data/bio')
-
 const router = express.Router()
 
 router.get('/', (req, res) => {
@@ -14,6 +13,10 @@ router.get('/portfolio', (req, res) => {
 
 router.get('/contact', (req, res) => {
 	res.render('contact', { items: projects })
+})
+
+router.get('/resume', (req, res) => {
+	res.render('resume')
 })
 
 module.exports = router
