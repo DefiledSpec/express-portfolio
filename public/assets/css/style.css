@@ -18,6 +18,33 @@ body {
     border: rgba(0,0,0,0.1) 2px ridge;   
 }
 
+.linksContainer {
+	width: max-content;
+	margin: 0 auto;
+}
+
+.linksContainer > h5 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.links {
+	font-size: 2.5em;
+	margin: .5em .4em;
+}
+
+.fa-github {
+	color: darkslategray;
+}
+
+.fa-stack-overflow {
+	color: rgb(244,128,36);
+}
+
+.fa-linkedin-in {
+	color: rgb(0,119,181);
+}
+
 figure {
     max-width: 650px;
     position: relative;
