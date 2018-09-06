@@ -21,6 +21,8 @@ router.get('/resume', (req, res) => {
 })
 
 router.post('/contact', (req, res) => {
+	console.log(process.env.MAILUSERNAME)
+	console.log(process.env.MAILPASSWORD)
 	let { name, email, comment } = req.body
 	let emailOpts = {
 		from: `"${name.trim()}" <${email.trim()}`,
