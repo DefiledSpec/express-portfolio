@@ -22,3 +22,5 @@ app.use('/', htmlRoutes)
 app.use('/api', apiRoutes)
 
 app.listen(PORT, () => console.log(`App Listening at http://localhost:${PORT}`))
+
+module.exports = app
