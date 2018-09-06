@@ -1,5 +1,6 @@
 const express = require('express')
 const projects = require('../data/projects')
+const bio = require('../data/bio')
 
 const router = express.Router()
 
@@ -8,7 +9,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/bio', (req, res) => {
-	res.send('bio api')
+	res.json(bio)
 })
 
 router.get('/messages', (req, res) => {
