@@ -30,9 +30,12 @@ router.post('/contact', (req, res) => {
 	}
 	emailer.sendMail(emailOpts, (err, info) => {
 		if(err) {
+			console.log(err)
 			res.render('contact', { msg: 'There was a problem sending the email. Please try again!' })
+		} else {
+			res.render('contact', { msg: 'Email Sent Successfully!' })
 		}
-		res.render('contact', { msg: 'Email Sent Successfully!' })
+		console.log(info)
 	})
 })
 
