@@ -1,5 +1,7 @@
 # Web Development Portfolio
 
+[![Build Status](https://travis-ci.com/DefiledSpec/express-portfolio.svg?branch=master)](https://travis-ci.com/DefiledSpec/express-portfolio)
+
 [Portfolio](https://defiledspec.herokuapp.com/)
 
 ## Projects Completed
