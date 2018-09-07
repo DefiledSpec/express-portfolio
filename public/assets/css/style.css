@@ -64,15 +64,16 @@ figcaption {
     right: 0;
     left: 0;
     font-size: 1.25em;
-    color: white;
+    color: ghostwhite;
     text-align: center;
     background: rgba(0,0,0,0.6);
 }
 
 footer {
     position: relative;
-    background: lightgray;
-    max-width: 100%;
+    background: darkslategray;
+	max-width: 100%;
+	color: ghostwhite;
 }
 
 #tealBar {
