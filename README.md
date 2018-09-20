@@ -30,4 +30,6 @@
 
 * [Get Me My Coffee](https://getmemycoffee.herokuapp.com/) - Full Stack Web Application for companies to place coffee orders.
 
+* [OSRS News Scraper](https://osrs-news-scraper.herokuapp.com/) - Full Stack Web Application using cheerio to scrape OSRS news and store it in mongodb.
+
 ## Current Projects

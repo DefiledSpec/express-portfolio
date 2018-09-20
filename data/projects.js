@@ -82,5 +82,12 @@ module.exports = [
 		link: 'https://getmemycoffee.herokuapp.com/',
 		img: '/assets/img/get-me-my-coffee.png',
 		hasSite: true,
+	},
+	{
+		name: 'OSRS News Scraper',
+		github: 'https://github.com/DefiledSpec/osrs-news-scraper',
+		link: 'https://osrs-news-scraper.herokuapp.com/',
+		img: '/assets/img/osrs-news-scraper.jpg',
+		hasSite: true,
 	}
 ]
