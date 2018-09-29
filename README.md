@@ -32,4 +32,8 @@
 
 * [OSRS News Scraper](https://osrs-news-scraper.herokuapp.com/) - Full Stack Web Application using cheerio to scrape OSRS news and store it in mongodb.
 
+* [Clicky Game](https://ds-clicky-game.herokuapp.com) - Memory game using React to dynamically render content.
+
+* [NYT React Search](https://github.com/DefiledSpec/nyt-react-search) - A full stack web application that queries the nyt API, users can save their favorite articles to MongoDB
+
 ## Current Projects

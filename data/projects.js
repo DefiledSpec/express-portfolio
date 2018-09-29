@@ -89,5 +89,19 @@ module.exports = [
 		link: 'https://osrs-news-scraper.herokuapp.com/',
 		img: '/assets/img/osrs-news-scraper.jpg',
 		hasSite: true,
+	},
+	{
+		name: 'Clicky Game',
+		github: 'https://github.com/DefiledSpec/Clicky-Game',
+		link: 'https://ds-clicky-game.herokuapp.com/',
+		img: '/assets/img/clicky-game.jpg',
+		hasSite: true
+	},
+	{
+		name: 'NYT React Search',
+		github: 'https://github.com/DefiledSpec/nyt-react-search',
+		link: '',
+		img: '/assets/img/nyt-react-search.png',
+		hasSite: false
 	}
 ]
