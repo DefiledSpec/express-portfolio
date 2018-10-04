@@ -100,7 +100,7 @@ module.exports = [
 	{
 		name: 'NYT React Search',
 		github: 'https://github.com/DefiledSpec/nyt-react-search',
-		link: '',
+		link: 'https://ds-nyt-react-search.herokuapp.com/',
 		img: '/assets/img/nyt-react-search.png',
 		hasSite: false
 	}
