@@ -48,23 +48,41 @@ body {
 figure {
     max-width: 650px;
     position: relative;
-    margin-bottom: 2em;
+    margin-bottom: 0;
 }
 img {
     margin: 0 auto;
 }
 
 img#myImg {
-    float: left;
+	float: left;
+	max-width: 200px;
 }
 
 .portfolio-item {
 	height: 175px;
 }
+.portfolio-box {
+	border-radius: 2px;
+	/* border: 1px solid black; */
+	/* background: darkslategray; */
+}
 
 .img-thumbnail {
 	height: 100%;
 	width: 100%;
+}
+
+.portfolio-row {
+	margin: 1em 0;
+}
+
+.links {
+	width: max-content;
+	margin: 0 auto .1em auto;
+}
+.links > button {
+	margin: 0;
 }
 
 figcaption {

@@ -9,13 +9,23 @@
 			</div>
 			<div class="row">
 				{{#each items }}
-					<div class="col-sm-12 col-md-4">
-						<figure class='portfolio-item'>
-							<a href="{{#if hasSite}}{{ link }}{{ else }}{{ github }}{{/if }}">
-								<img src="{{ img }}" alt="" class="img img-thumbnail">
-								<figcaption>{{ name }}</figcaption>
-							</a>
-						</figure>
+					<div class="col-sm-12 col-md-4 portfolio-row">
+						<div class="bg-dark portfolio-box">
+							<figure class='bg-dark portfolio-item'>
+								<a href="{{#if hasSite}}{{ link }}{{ else }}{{ github }}{{/if }}">
+									<img src="{{ img }}" alt="" class="img img-thumbnail">
+									<figcaption>{{ name }}</figcaption>
+									<div class="clearfix"></div>
+								</a>
+							</figure>
+							<div class="links">
+								<button class='btn btn-primary' href="{{ github }}">GitHub</button>
+								{{#if hasSite}}
+									<button class='btn btn-primary' href="{{ link }}">Website</button>
+								{{/if }}
+							</div>
+							
+						</div>
 					</div>
 				{{/each }}
 			</div>
