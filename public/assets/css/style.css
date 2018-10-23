@@ -58,6 +58,15 @@ img#myImg {
     float: left;
 }
 
+.portfolio-item {
+	height: 175px;
+}
+
+.img-thumbnail {
+	height: 100%;
+	width: 100%;
+}
+
 figcaption {
     position: absolute;
     bottom: 10px;
@@ -74,6 +83,14 @@ footer {
     background: darkslategray;
 	max-width: 100%;
 	color: ghostwhite;
+}
+
+.teal {
+	background: teal;
+}
+.teal:hover {
+	background: teal;
+	opacity: .75;
 }
 
 #tealBar {
