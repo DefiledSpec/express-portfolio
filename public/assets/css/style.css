@@ -25,7 +25,8 @@ body {
 
 .linksContainer > h5 {
 	text-align: center;
-	font-weight: bold;
+    font-weight: bold;
+    margin-bottom: 1em;
 }
 
 .links {
@@ -63,7 +64,7 @@ img#myImg {
 	height: 175px;
 }
 .portfolio-box {
-	border-radius: 2px;
+	border-radius: 3px;
 	/* border: 1px solid black; */
 	/* background: darkslategray; */
 }
@@ -132,7 +133,8 @@ footer {
 }
 
 .about {
-	height: max-content;
+    height: max-content;
+    padding-bottom: 1em;
 }
 
 @media only screen and (max-width: 426px) {
