@@ -102,6 +102,13 @@ module.exports = [
 		github: 'https://github.com/DefiledSpec/nyt-react-search',
 		link: 'https://ds-nyt-react-search.herokuapp.com/',
 		img: '/assets/img/nyt-react-search.png',
-		hasSite: false
+		hasSite: true
+	},
+	{
+		name: 'Job Track',
+		github: 'https://github.com/EGartland/JobTrack',
+		link: 'https://jobtracker1.herokuapp.com/',
+		img: '/assets/img/jobTrack.png',
+		hasSite: true
 	}
 ]

@@ -66,4 +66,8 @@
 
 ![NYT React Search](./public/assets/img/nyt-react-search.png)
 
+* [Job Track](https://github.com/EGartland/JobTrack) - A full stack web application that queries the nyt API, users can save their favorite articles to MongoDB
+
+![Job Track](./public/assets/img/jobTrack.png)
+
 ## Current Projects
