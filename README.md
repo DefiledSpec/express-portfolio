@@ -4,6 +4,13 @@
 
 [Portfolio](https://defiledspec.herokuapp.com/)
 
+## Technologies Used
+
+* node.js
+* express
+* handlebars
+* nodemailer
+
 ## Projects Completed
 
 * [Hangman](http://defiledspec.github.io/Word-Game-Hangman) - Word Game
