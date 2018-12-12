@@ -81,6 +81,7 @@ img#myImg {
 .links {
 	width: max-content;
 	margin: 0 auto .1em auto;
+	padding: .25em;
 }
 .links > button {
 	margin: 0;
@@ -111,6 +112,10 @@ footer {
 .teal:hover {
 	background: teal;
 	opacity: .75;
+}
+
+h5.followMe {
+	margin-bottom: .5em;
 }
 
 #tealBar {
