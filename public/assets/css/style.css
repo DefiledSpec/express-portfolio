@@ -58,6 +58,9 @@ img {
 img#myImg {
 	float: left;
 	max-width: 200px;
+	border-radius: 50%;
+	-webkit-shape-outside:circle();
+	shape-outside:circle();
 }
 
 .portfolio-item {
