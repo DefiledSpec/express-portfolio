@@ -1,0 +1,15 @@
+{{!-- Removed from About Page --}}
+
+
+<div class="col-sm-6 col-md-3 offset-md-3 mr-auto ml-auto">
+	<div class="card">
+		<div class="card-header">My Projects</div>
+		<ul class="list-group list-group-flush text-center">
+		{{#each items }}
+			<li class="list-group-item">
+				<a href="{{#if hasSite}}{{ link }}{{ else }}{{ github }}{{/if }}">{{ name }}</a>
+			</li>	
+		{{/each }}
+		</ul>
+	</div>
+</div>
