@@ -65,6 +65,9 @@ img#myImg {
 
 .portfolio-item {
 	height: 175px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background-color: #343a40;
 }
 .portfolio-box {
 	border-radius: 3px;
@@ -76,6 +79,8 @@ img#myImg {
 	float: none;
 	height: 100%;
 	width: 100%;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
 	/* width: auto;
 	margin: 0 auto; */
 }

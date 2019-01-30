@@ -29,7 +29,7 @@
 
 ![GifTastic](./public/assets/img/giftastic.png)
 
-* [Train Scheduler](https://defiledspec.github.io/Train-Scheduler) - Simple application to add new trains and frequency of arrival to station, using Firebase Realtime Database
+* [Train Scheduler](https://defiledspec.github.io/Train-Scheduler) - Simple application to add new trains and frequency of arrival to station, using Firebase real-time Database
 
 ![Train Scheduler](./public/assets/img/train.png)
 
