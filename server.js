@@ -4,6 +4,7 @@ const logger = require('morgan')
 const hbs = require('express-handlebars')
 const htmlRoutes = require('./routes/htmlRoutes')
 const apiRoutes = require('./routes/apiRoutes')
+const http = require('http')
 
 const PORT = process.env.PORT || 5000
 
@@ -21,6 +22,11 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use('/', htmlRoutes)
 app.use('/api', apiRoutes)
 
-app.listen(PORT, () => console.log(`App Listening at http://localhost:${PORT}`))
+app.listen(PORT, () => {
+	console.log(`App Listening at http://localhost:${PORT}`)
+	setInterval(function() {
+		http.get('http://defiledspec.herokuapp.com')
+	}, 300000) // every 5 minutes (300000)
+})
 
 module.exports = app
