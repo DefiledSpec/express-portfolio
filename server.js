@@ -26,7 +26,7 @@ app.listen(PORT, () => {
 	console.log(`App Listening at http://localhost:${PORT}`)
 	setInterval(function() {
 		http.get('http://defiledspec.herokuapp.com')
-	}, 300000) // every 5 minutes (300000)
+	}, 600000) // every 10 minutes
 })
 
 module.exports = app
