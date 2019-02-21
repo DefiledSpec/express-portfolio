@@ -1,4 +1,9 @@
 <footer class="bg-dark fixed-bottom">
 	<div id="tealBar"></div>
-	<p class="text-center mt-2"><small>&copy; Copyright</small></p>
-</footer>   
+	<p class="text-center mt-2" id="copyright"></p>
+</footer>
+<script>
+	$('document').ready(function() {
+		$('#copyright').html(`<small>&copy; Copyright 2018 - ${new Date().getFullYear()} Jesse Harrah. All Rights Reserved.</small>`)
+	})
+</script>
