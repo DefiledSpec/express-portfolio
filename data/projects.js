@@ -110,5 +110,12 @@ module.exports = [
 		link: 'https://jobtracker1.herokuapp.com/',
 		img: '/assets/img/jobTrack.png',
 		hasSite: true
+	},
+	{
+		name: 'CSS Grid Tutorial',
+		github: 'https://github.com/DefiledSpec/css-grid-website',
+		link: 'https://defiledspec.github.io/css-grid-website/',
+		img: '/assets/img/css-grid.png',
+		hasSite: true
 	}
 ]
